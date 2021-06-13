@@ -5,3 +5,6 @@ module.exports = async function (deployer, network, accounts) {
   await deployer.deploy(Char);
   const char = await Char.deployed();
 };
+
+// Tutorial
+// https://ethereum.org/en/developers/tutorials/create-and-deploy-a-defi-app/#install-truffle-and-ganache
